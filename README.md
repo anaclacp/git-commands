@@ -1,6 +1,8 @@
+<div style="color: #FF69B4;">
+
 # ✨ Guia Completo de Comandos Git
 
-<div align="center">
+<div align="center" style="color: #DB7093;">
 Um guia prático e completo para seus projetos com Git
 </div>
 
@@ -18,6 +20,8 @@ Um guia prático e completo para seus projetos com Git
 ```bash
 git init
 ```
+
+<div style="color: #FFB6C1;">
 
 ### Configurações Iniciais
 ```bash
@@ -51,8 +55,11 @@ git commit -m "Título do commit" -m "Descrição detalhada do commit"
 # Adicionar e commitar em um comando
 git commit -am "Mensagem"
 ```
+</div>
 
 ## 🌿 Trabalhando com Branches
+
+<div style="color: #FF69B4;">
 
 ### Gerenciamento de Branches
 ```bash
@@ -80,8 +87,11 @@ git merge nome-do-branch
 # Fazer rebase
 git rebase nome-do-branch
 ```
+</div>
 
 ## 🚀 Repositório Remoto
+
+<div style="color: #DB7093;">
 
 ### Conectando e Enviando
 ```bash
@@ -97,8 +107,11 @@ git pull origin main
 # Clonar repositório
 git clone https://github.com/usuario/repositorio
 ```
+</div>
 
 ## ↩️ Desfazendo Alterações
+
+<div style="color: #FFB6C1;">
 
 ### Correções e Reversões
 ```bash
@@ -114,8 +127,11 @@ git reset --hard HEAD~1
 # Reverter um commit específico
 git revert id-do-commit
 ```
+</div>
 
 ## 💡 Boas Práticas
+
+<div style="color: #FF69B4;">
 
 ### Commits
 - Escreva mensagens claras e descritivas
@@ -130,8 +146,11 @@ git revert id-do-commit
   - `feature/nova-funcionalidade`
   - `fix/correcao-bug`
   - `docs/atualizacao-readme`
+</div>
 
 ## 🔍 Situações Comuns
+
+<div style="color: #DB7093;">
 
 ### Verificando Status e Histórico
 ```bash
@@ -166,8 +185,11 @@ git stash pop
 3. Escolha quais alterações manter
 4. Adicione os arquivos resolvidos
 5. Faça o commit das resoluções
+</div>
 
 ## 📝 Arquivo .gitignore
+
+<div style="color: #FFB6C1;">
 
 Exemplo de conteúdo para `.gitignore`:
 ```plaintext
@@ -190,14 +212,17 @@ build/
 .DS_Store
 Thumbs.db
 ```
+</div>
 
 ---
 
-<div align="center">
+<div align="center" style="color: #FF69B4;">
 
 **Dúvidas?**
-Consulte a [documentação oficial do Git](https://git-scm.com/doc) ou abra uma issue!
+[documentação oficial do Git](https://git-scm.com/doc)
 
-*Feito com ♥️ para a comunidade dev*
+*Para a comunidade dev*
+
+</div>
 
 </div>
